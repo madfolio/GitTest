@@ -1,0 +1,29 @@
+    1  sudo dnf -installgit
+    2  sudo dnf -install git
+    5  git config --global user.name stongaf
+    6  git config --global user.email stonga.fedora@gmail.com
+    7  git status
+    8  git init
+    9  git status
+   10  git init hello-world
+   14  rm .git
+   15  rmdir .git
+   16  cd .git
+   23  git --version
+   24  rm -Rf* .git
+   25  rm -Rf .git
+   30  mkdir git
+   32  cd git
+   34  git init project1
+   39  tree .git
+   42  git status
+   45  git status
+   46  git add first.text 
+   47  git status
+   49  git commit -m "My first commit"
+   52  git status
+   54  git status 
+   55  git commit -a
+   56  git status 
+   57  history|grep git
+   58  history|grep git > git_commands
